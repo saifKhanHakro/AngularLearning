@@ -10,7 +10,7 @@ templateUrl: "./products.component.html"
 export class ProductsComponent
 {
     addProduct = true;
-    enteredValue  = "Product 1:";
+    enteredValue  = "";
 
     constructor()
     {
