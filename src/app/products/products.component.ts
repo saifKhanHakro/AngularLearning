@@ -21,13 +21,13 @@ export class ProductsComponent
 
     onClick()
         {
-            console.log('button click');
+            this.enteredValue = '';
         }
 
         onUpdateProductName(event: any)
         {
 
-            console.log(event);
+            //console.log(event);
             this.enteredValue = (<HTMLInputElement>event.target).value;
 
         }
